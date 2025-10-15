@@ -1,0 +1,15 @@
+name: sanjay
+
+on:
+ push:
+   branches: [ main ]  
+
+jobs:
+  firstJob:
+    run-on: ubuntu-latest
+
+    step:
+     - name: greet
+       run: echo "hello"
+    
+   
