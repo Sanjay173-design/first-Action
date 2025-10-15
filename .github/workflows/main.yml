@@ -6,9 +6,9 @@ on:
 
 jobs:
   firstJob:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-    step:
+    steps:
      - name: greet
        run: echo "hello"
     
